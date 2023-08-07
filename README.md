@@ -14,7 +14,8 @@ FROM awards
 );
 ```
 Output:
- <img src="1.png">
+
+<img src="1.png">
 
 ### Q2: Choose all employees who have never received an award (Nested Query)?
 Query:
@@ -27,6 +28,7 @@ FROM awards
 ```
 Output:
 
+<img src="2.png">
  
 ### Q3: Choose all Developers who make more than all Managers combined (Nested Query)?
 Query:
@@ -39,6 +41,7 @@ WHERE role IS 'Manager'
 ```
 Output:
 
+<img src="3.png">
  
 ### Q4: Choose all Developers who make more money than any Manager (Nested Query)?
 Query:
@@ -51,6 +54,7 @@ WHERE role IS 'Manager'
 ```
 Output:
 
+<img src="4.png">
  
 ### Q5: Choose all employees whose salaries are higher than the average for their position. (Nested Query)?
 Query:
@@ -63,3 +67,5 @@ WHERE role IS employee.role
 );
 ```
 Output:
+
+<img src="5.png">
